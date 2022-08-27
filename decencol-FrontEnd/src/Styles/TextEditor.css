@@ -1,0 +1,24 @@
+.statusBar .dropdown-menu{
+    border-radius:12px ;
+    box-shadow: -1px 3px 6px var(--bs-gray-400);
+    inset: 0px -1px auto auto !important;
+}
+.statusBar .dropdown ul,.statusBar .dropdown ul li{
+    background-color: var(--bs-gray-100);
+}
+.statusBar .dropdown ul li p{
+    margin: 0;
+}
+.statusBar .dropdown ul li span{
+    font-size: 0.9em;
+    color: var(--bs-gray-600);
+}
+.statusBar .dropdown ul li i{
+    font-size: 1.2;
+    font-style: normal;
+    cursor: pointer;
+    padding: 0.5em;
+}
+.docName span:nth-child(1){
+    color: var(--bs-gray-600);
+}
