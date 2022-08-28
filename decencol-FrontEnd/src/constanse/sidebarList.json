@@ -1,0 +1,229 @@
+[
+{
+    "name": "dashboard",
+    "list": [
+        { "title":"My Documents",
+            "icon":"folder_open",
+            "list":[
+                {
+                    "name":"Daily Statistics",
+                    "href":""
+                },
+                {
+                    "name":"Overall Statistics",
+                    "href":""
+                },
+                {
+                    "name":"Note",
+                    "href":""
+                },
+                {
+                    "name":"Money transactions",
+                    "href":""
+                },
+                {
+                    "name":"Money transactions",
+                    "href":""
+                },
+                {
+                    "name":"Option Flow Scan",
+                    "href":""
+                },
+                {
+                    "name":"Chatter Quant Social Data",
+                    "href":""
+                },
+                {
+                    "name":"Chatter Quant Social Data",
+                    "href":""
+                },
+                {
+                    "name":"Reshearch",
+                    "href":""
+                }
+            ]
+        },
+        { "title":"Calender",
+            "icon":"calendar_month",
+            "list":[
+                {
+                    "name":"Year View",
+                    "href":""
+                },
+                {
+                    "name":"Month View",
+                    "href":""
+                }
+            ]
+        },
+        { "title":"Exit Analays",
+            "icon":"exit_to_app",
+            "list":[
+                {
+                    "name":"Trades",
+                    "href":""
+                },
+                {
+                    "name":"Symbol Grouped",
+                    "href":""
+                },
+                {
+                    "name":"Day Grouped",
+                    "href":""
+                },
+                {
+                    "name":"Executions",
+                    "href":""
+                },
+                {
+                    "name":"Trades Chart",
+                    "href":""
+                }
+            ]
+        },
+        { "title":"Data Charts",
+            "icon":"bar_chart",
+            "list":[
+                {
+                    "name":"list1",
+                    "href":""
+                },
+                {
+                    "name":"list2",
+                    "href":""
+                },
+                {
+                    "name":"list3",
+                    "href":""
+                }
+            ]
+        },
+        { "title":"Performace Charts",
+            "icon":"insert_chart",
+            "list":[
+                {
+                    "name":"list1",
+                    "href":""
+                },
+                {
+                    "name":"list2",
+                    "href":""
+                },
+                {
+                    "name":"list3",
+                    "href":""
+                }
+            ]
+        },
+        { "title":"Technical Analays",
+            "icon":"query_stats",
+            "list":[
+                {
+                    "name":"list1",
+                    "href":""
+                },
+                {
+                    "name":"list2",
+                    "href":""
+                },
+                {
+                    "name":"list3",
+                    "href":""
+                }
+            ]
+        },
+        { "title":"Trading Tables",
+            "icon":"backup_table",
+            "list":[
+                {
+                    "name":"Trades",
+                    "href":"/userPages/dashboard/trades"
+                },
+                {
+                    "name":"list2",
+                    "href":""
+                }
+                ,
+                {
+                    "name":"list3",
+                    "href":""
+                }
+            ]
+        },
+        { "title":"Trading Analays",
+            "icon":"stacked_line_chart",
+            "list":[
+                {
+                    "name":"list1",
+                    "href":""
+                },
+                {
+                    "name":"list2",
+                    "href":""
+                },
+                {
+                    "name":"list3",
+                    "href":""
+                }
+            ]
+        },
+        { "title":"Grouped Copmpare",
+            "icon":"group_work",
+            "list":[
+                {
+                    "name":"list1",
+                    "href":""
+                },
+                {
+                    "name":"list2",
+                    "href":""
+                },
+                {
+                    "name":"list3",
+                    "href":""
+                }
+            ]
+        },
+        { "title":"Trading Console",
+            "icon":"dashboard",
+            "list":[
+                {
+                    "name":"list1",
+                    "href":""
+                },
+                {
+                    "name":"list2",
+                    "href":""
+                },
+                {
+                    "name":"list3",
+                    "href":""
+                }
+            ]
+        }
+    ]
+},
+{
+    "name":"userAccount",
+    "list":[
+        { "title":"User Account",
+            "icon":"manage_accounts",
+            "expand":"show",
+            "list":[
+                {
+                    "name":"Profile",
+                    "href":"/userPages/userAccount/profile"
+                },
+                {
+                    "name":"Trading Accounts",
+                    "href":"/userPages/userAccount/tradingAccount"
+                },
+                {
+                    "name":"Verification",
+                    "href":"/userPages/userAccount/verify"
+                }
+            ]
+        }
+    ]
+}
+]

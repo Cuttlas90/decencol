@@ -1,0 +1,129 @@
+/* #showDocs{
+    
+} */
+.docFileRow{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px ; 
+
+}
+.fileHolder{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    min-width: 200px;
+    max-width: 210px;
+    max-height: 100px;
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    position: relative;
+}
+.fileHolder:hover .docFile {
+    opacity: 0.3;
+}
+.fileHolder:hover .action{
+    bottom: 30px;
+}
+.action{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.4s ease-in-out;
+    position: absolute;
+    bottom: -40px;
+}
+#ShareModal input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid var(--bs-gray-300);
+    border-radius: 8px;
+}
+#ShareModal .modal-footer button{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+#ShareModal .modal-footer button span{
+ font-size: 1.3em;
+ margin-right: 0.5em;
+}
+.action button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.docFile {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    min-width: 200px;
+    max-width: 210px;
+    max-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 0.4s ease-in-out;
+}
+.docFile img{
+    height: 100%;
+}
+.r1{
+    font-size: 0.8em;
+}
+.r1 p{
+    font-size: 2em;
+    margin: 0;
+    white-space: nowrap;
+    max-width: 122px; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.r2{
+    font-size: 0.8em;
+}
+.r2 p{
+    margin: 0;
+}
+.r3{
+    font-size: 0.7em;
+}
+.r4{
+    font-size: 0.7em;
+}
+.inputName{
+    flex-grow: 1;
+    min-width: 150px;
+    border-radius: 8px;
+    border: 1px solid var(--bs-gray-300);
+    padding: 0.5em;
+}
+.docInputName{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.search input{
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--bs-gray-300);
+    padding: 0.5em;
+}
+.modalE1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1055;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+}
