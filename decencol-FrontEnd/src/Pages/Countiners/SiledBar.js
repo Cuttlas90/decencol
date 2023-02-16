@@ -83,22 +83,16 @@ export default function SildeBar(props) {
                                     </div>
                                 </div>
                             </div>
-                            <li className="" onClick={()=>props.setSection("all")}>
+                            <li className="" onClick={()=>props.setSection("myFile")}>
                                 <div className="w-100 pe-3">
                                     <i /*onClick={() => expandSidebar()}*/ className='icon liStatic'>folder_open</i>
-                                    <div className='w-100 ps-2 fs-6'>All Documents</div>
+                                    <div className='w-100 ps-2 fs-6'>My Documents</div>
                                 </div>
                             </li>
-                            <li className="" onClick={()=>props.setSection("myShared")}>
+                            <li className="" onClick={()=>props.setSection("shared")}>
                                 <div className="w-100 pe-3">
-                                    <i /*onClick={() => expandSidebar()}*/ className='icon liStatic text-primary'>share</i>
-                                    <div className='w-100 ps-2 fs-6'>My shared Docs</div>
-                                </div>
-                            </li>
-                            <li className="" onClick={()=>props.setSection("sharedWithMe")}>
-                                <div className="w-100 pe-3">
-                                    <i /*onClick={() => expandSidebar()}*/ className='icon liStatic text-success'>share</i>
-                                    <div className='w-100 ps-2 fs-6'>shared with me</div>
+                                    <i /*onClick={() => expandSidebar()}*/ className='icon liStatic'>share</i>
+                                    <div className='w-100 ps-2 fs-6'>Shared with me</div>
                                 </div>
                             </li>
                             <li className="" onClick={()=>props.setSection("creator")}>

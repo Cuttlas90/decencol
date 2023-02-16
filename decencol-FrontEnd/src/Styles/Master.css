@@ -162,3 +162,6 @@ html * {
 .row {
   --bs-gutter-x : 0;
 }
+i{
+  font-style: normal;
+}
